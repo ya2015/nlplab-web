@@ -19,12 +19,17 @@ $(function() {
     var ms_block = '';
     for( i in members['Master Students']) {
         member = members['Master Students'][i];
+        name = escapeHtml(member.name)
+        alias = escapeHtml(member.alias)
+        img = escapeHtml(encodeURI(member.img))
+        research_area = escapeHtml(member.img)
+        
         ms_block +=  `<div class="col-md-3 text-center">
             <div class="thumbnail">
-                <img class="img-responsive" src="` + member.img + `" height="250" width="250" alt="` + member.name + `">
+                <img class="img-responsive" src="` + img + `" height="250" width="250" alt="` + name + `">
                 <div class="caption">
-                    <h4>` + member.name + `<br><small>` + member.alias + `</small></h4>
-                    <p>` + member.research + `</p>
+                    <h4>` + name + `<br><small>` + alias + `</small></h4>
+                    <p>` + research_area + `</p>
                 </div>
             </div>
         </div>`;
