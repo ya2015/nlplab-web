@@ -56,7 +56,7 @@ var members = {
         {
             name: '吳奇恩',
             alias: '87n',
-            research: '自然語言處理、同義詞研究',
+            research: '自然語言處理、同義詞',
             img: 'img/57n.jpg',
         },
         {
@@ -66,5 +66,26 @@ var members = {
             img: 'img/jane.jpg',
         },
     ],
-    
+    'Undergraduates': [
+        {
+            name: '朱凰華',
+            alias: 'Garnix',
+            research: 'Email寫作輔助',
+        },
+        {
+            name: '徐芷琳',
+            alias: 'Chih-Lin',
+            research: 'Email寫作輔助',
+        },
+        {
+            name: '簡紹安',
+            alias: 'Shao-An',
+            research: '自然語言搜尋介面',
+        },
+        {
+            name: '蔡明勳',
+            alias: 'Frank',
+            research: '自然語言搜尋介面',
+        },
+    ],
 };
