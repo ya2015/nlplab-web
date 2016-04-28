@@ -47,7 +47,7 @@ var members = {
             research: '相似詞',
             img: 'img/jr.jpg',
             bkg_color: '#008B45',
-            intro: '只是你遲到一千年',
+            intro: '只是你遲到一千年！',
         },
         {
             name: '陳志杰',
