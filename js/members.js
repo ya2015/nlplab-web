@@ -39,7 +39,7 @@ var members = {
             research: '文法改錯',
             img: 'img/pengyu.jpg',
             bkg_color: '#CDCD00',
-            intro: '耍廢大師',
+            intro: '太極拳法掌門人',
         },
         {
             name: '黃婕雅',
