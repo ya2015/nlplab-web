@@ -29,7 +29,7 @@ $(function() {
         ms_block +=  `<div class="thumbnail col-md-3 flipbox">
                 <div class="member-info front">
                     <img class="img-responsive member-img" src="` + img + `" alt="` + name + `">
-                    <h2>` + name + `<br ><small>` + alias + `</small></h2>
+                    <h3>` + name + `<br ><small>` + alias + `</small></h3>
                     <div class="caption">
                         <p>` + research_area + `</p>
                     </div>
@@ -47,14 +47,14 @@ $(function() {
     var und_block = '';
     for( i in members['Undergraduates']) {
         member = members['Undergraduates'][i];
-        und_block +=  `<div class="col-md-3 text-center">
-            <div class="thumbnail">
-                <div class="caption">
-                    <h4>` + member.name + `<br><small>` + member.alias + `</small></h4>
-                    <p>` + member.research + `</p>
-                </div>
-            </div>
-        </div>`;
+        und_block +=  `<div class="col-md-3 text-center thumbnail">
+
+                        <div class="caption">
+
+                          <h4>` + member.name + `<br><small>` + member.alias + `</small></h4>
+                          <p>` + member.research + `</p>
+                        </div>
+                       </div>`;
     }
     $('div.undergrad > div:first-child').append(und_block);
 });
