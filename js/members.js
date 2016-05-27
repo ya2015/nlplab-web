@@ -65,7 +65,7 @@ var members = {
         {
             name: '吳瑀瑄',
             alias: 'shanny',
-            research: '動詞偵錯與改錯',
+            research: '英文文法（動詞）偵錯與改錯',
             img: 'img/shanny.jpg',
             bkg_color: '#473C8B',
             intro: '看到我請提醒我記得帶電源線和學生證 (￣３￣)a',
@@ -83,10 +83,10 @@ var members = {
         {
             name: '杜惟真',
             alias: 'Jane',
-            research: '自然語言處理',
+            research: '英語檢定輔助系統、動詞型態改錯',
             img: 'img/jane.jpg',
             bkg_color: '#EEAD0E',
-            intro: '呵呵呵',
+            intro: '呵呵呵 好哦',
             link: 'https://youtu.be/7sbKm-hAlsw',
         },
     ],
