@@ -73,11 +73,11 @@ var members = {
         },
         {
             name: '吳奇恩',
-            alias: '57n',
-            research: '自然語言處理、同義詞',
+            alias: 'Tony',
+            research: '機器翻譯',
             img: 'img/57n.jpg',
             bkg_color: '#141414',
-            intro: '白痴',
+            intro: '57n',
             link: 'https://youtu.be/hgGFe4eJ0qc',
         },
         {
