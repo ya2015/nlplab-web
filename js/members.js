@@ -94,6 +94,8 @@ var members = {
         {
             name: '朱凰華',
             alias: 'Garnix',
+			img:'img/girl.jpg',
+			intro:'吃飯、睡覺、打豆豆！',
             research: 'Email寫作輔助',
         },
         {
